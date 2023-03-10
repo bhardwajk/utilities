@@ -2,7 +2,7 @@ import os
 import datetime.datetime
 import time
 
-filename = '/var/nslog/metrics_prom_demo_prometheus_profile.log'
+filename = '__my_filename_goes_here__'
 
 while (True):
   ts = os.path.getmtime(filename)
